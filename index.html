@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/style.scss">
-  <link rel="icon" href="./src/img/favicon.ico" sizes="32x32" />
-  <link rel="icon" href="./src/img/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="./src/img/apple-touch-icon.png" />
-  <title>task-00</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.scss" />
+    <link rel="icon" href="./src/img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="./src/img/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./src/img/apple-touch-icon.png" />
+    <title>task-16</title>
+  </head>
+  <body>
+    <div class="calendar">
+      <div class="calendar__header">
+        <h2 class="calendar__day">Thursday 7th</h2>
+        <h2 class="calendar__month">January 2016</h2>
+      </div>
+      <div class="calendar__body">
+        <div class="calendar__grid">
+          <span class="calendar__week-day">mon</span>
+          <span class="calendar__week-day">tue</span>
+          <span class="calendar__week-day">wed</span>
+          <span class="calendar__week-day">thu</span>
+          <span class="calendar__week-day">fri</span>
+          <span class="calendar__week-day">sat</span>
+          <span class="calendar__week-day">sun</span>
+          <button
+            type="button"
+            class="calendar__date calendar__date--past calendar__btn"
+          >
+            28
+          </button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--past calendar__btn"
+          >
+            29
+          </button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--past calendar__btn"
+          >
+            30
+          </button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--past calendar__btn"
+          >
+            31
+          </button>
+          <button type="button" class="calendar__date calendar__btn">1</button>
+          <button type="button" class="calendar__date calendar__btn">2</button>
+          <button type="button" class="calendar__date calendar__btn">3</button>
+          <button type="button" class="calendar__date calendar__btn">4</button>
+          <button type="button" class="calendar__date calendar__btn">5</button>
+          <button type="button" class="calendar__date calendar__btn">6</button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--current calendar__btn"
+          >
+            7
+          </button>
+          <button type="button" class="calendar__date calendar__btn">8</button>
+          <button type="button" class="calendar__date calendar__btn">9</button>
+          <button type="button" class="calendar__date calendar__btn">10</button>
+          <button type="button" class="calendar__date calendar__btn">11</button>
+          <button type="button" class="calendar__date calendar__btn">12</button>
+          <button type="button" class="calendar__date calendar__btn">13</button>
+          <button type="button" class="calendar__date calendar__btn">14</button>
+          <button type="button" class="calendar__date calendar__btn">15</button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--active even calendar__btn"
+            data-before="6"
+          >
+            16
+          </button>
+          <button type="button" class="calendar__date calendar__btn">17</button>
+          <button type="button" class="calendar__date calendar__btn">18</button>
+          <button
+            type="button"
+            class="calendar__date calendar__date--active odd calendar__btn"
+            data-before="5"
+          >
+            19
+          </button>
+          <button type="button" class="calendar__date calendar__btn">20</button>
+          <button type="button" class="calendar__date calendar__btn">21</button>
+          <button type="button" class="calendar__date calendar__btn">22</button>
+          <button type="button" class="calendar__date calendar__btn">23</button>
+          <button type="button" class="calendar__date calendar__btn">24</button>
+          <button type="button" class="calendar__date calendar__btn">25</button>
+          <button type="button" class="calendar__date calendar__btn">26</button>
+          <button type="button" class="calendar__date calendar__btn">27</button>
+          <button type="button" class="calendar__date calendar__btn">28</button>
+          <button type="button" class="calendar__date calendar__btn">29</button>
+          <button type="button" class="calendar__date calendar__btn">30</button>
+          <button type="button" class="calendar__date calendar__btn">31</button>
+        </div>
+      </div>
+      <div class="calendar__footer">
+        <span class="calendar__time">11:35 am</span>
+        <button type="button" class="calendar__btn calendar__footer-btn">
+          +
+        </button>
+        <span class="calendar__temperature">12°C</span>
+      </div>
+    </div>
+    <script src="./src/script.js" type="module"></script>
+  </body>
 </html>
